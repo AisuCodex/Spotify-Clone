@@ -15,6 +15,7 @@ header
 .spotify-logo-container 
 .spotify-logo {
   height: 100%;
+  cursor: pointer;
 }
 
 header 
@@ -32,12 +33,26 @@ header
   border-radius: 50%;
   background-color: #1F1F1F;
   padding: 10px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.home-icon-container 
+.home-icon:hover {
+  filter: brightness(1.3);
+  transform: scale(1.05);
 }
 
 header 
 .Search-container {
   flex: 1;
   position: relative;
+  transition: 0.15s;
+}
+
+header 
+.Search-container:hover {
+  filter: brightness(1.4);
 }
 
 .Search-container 
@@ -50,13 +65,13 @@ header
   color: white;
   font-size: 16px;
   font-weight: 600;
+  padding-left: 47px;
 }
 
 input::placeholder {
   color: rgb(160, 160, 160);
   font-weight: 500;
   font-size: 16px;
-  padding-left: 26px;
 }
 
 .Search-container
