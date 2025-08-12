@@ -2,12 +2,12 @@ header{
   height: 65px;
   display: flex;
   align-items: center;
-  background-color: #000000;
+  background-color: #000000;  
 }
 
 header 
 .spotify-logo-container {
-  height: 34px;
+  height: 32px;
   width: 100px;
   padding: 0 0 0 27px;
 }
@@ -30,19 +30,20 @@ header
 .home-icon {
   height: 100%;
   border-radius: 50%;
-  background-color: #2c2c2c;
+  background-color: #1F1F1F;
   padding: 10px;
 }
 
 header 
 .Search-container {
   flex: 1;
+  position: relative;
 }
 
 .Search-container 
 .search {
-  background-color: #2c2c2c;
-  border: 1px solid #2c2c2c;
+  background-color: #1F1F1F;
+  border: 1px solid #1F1F1F;
   padding: 13px 20px;
   border-radius: 20px;
   width: 470px;
@@ -54,8 +55,21 @@ header
 input::placeholder {
   color: rgb(160, 160, 160);
   font-weight: 500;
-  font-size: 18px;
-  margin-top: 30px;
+  font-size: 16px;
+  padding-left: 26px;
+}
+
+.Search-container
+.search-icon-container {
+  position: absolute;
+  height: 27px;
+  top: 10px;
+  left: 9px;
+}
+
+.search-icon-container
+.search-icon {
+  height: 100%;
 }
 
 header 
@@ -119,5 +133,5 @@ header
   height: 100%;
   border-radius: 50%;
   padding: 8px;
-  background-color: #2c2c2c;
+  background-color: #1F1F1F;
 }
