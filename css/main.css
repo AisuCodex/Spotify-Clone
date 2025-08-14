@@ -1,0 +1,142 @@
+main {
+  margin-top: 3px;
+  height: 528px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 90px;
+  row-gap: 30px;
+}
+
+main 
+.middle-container {
+  padding: 26px 0 0 0;
+  border: 1px solid #212121;
+  flex: 2.1;
+  background-color: #212121;
+  border-radius: 6px;
+  margin-right: 10px;
+  padding-left: 30px;
+}
+
+.middle-container 
+.middle-top 
+a {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 8px 13px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+main 
+.play-list-container {
+  display: grid;
+  grid-template-columns: 190px 190px 190px 190px;
+  row-gap: 10px;
+  column-gap: 8px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.play-list-container
+.play-list {
+  display: flex;
+  flex-direction: row;
+  row-gap: 10px;
+  column-gap: 10px;
+  background-color: #4F4C5D;
+  border-radius: 3px;
+  height: 45px;
+}
+
+.play-list
+.img-container {
+  width: 70px;
+  height: 100%;
+}
+
+.play-list-container
+.img-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px 0 0 3px;
+}
+
+.play-list
+p {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-weight: 700;
+  color: white;
+  font-size: 15px;
+  width: 100%;
+  word-spacing: -3px;
+}
+
+main
+.middle-bottom {
+  margin: 35px 0 0 0;
+}
+
+.middle-bottom
+.text {
+  color: rgb(160, 160, 160);
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.middle-bottom
+div
+.name {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.middle-bottom
+.bottom-text {
+  display: flex;
+  flex-direction: row;
+}
+
+.middle-bottom
+div
+.name {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  flex: 1;
+}
+
+.middle-bottom
+div
+a {
+  color: rgb(160, 160, 160);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 60px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+main 
+.right-section {
+ flex: 1;
+ border: 1px solid green;
+}
+
+.right-section
+.img-container {
+  width: 100%;
+}
+
+.img-container
+.img {
+  width: 100%;
+}
+
